@@ -1,0 +1,323 @@
+Session Collection
+[
+    {
+        "_id": "5ebdedc37fbc2980b4012581",
+        "date": "2020-03-14T00:00:00.000Z",
+        "time": "12.45",
+        "clientId": "5ebd1b6a943eb24688afe4f7",
+        "therapistId": "5ebde3fd8eaa6df75740383b",
+        "fee": "$20",
+        "sessionNum": "2",
+        "duration": "45",
+        "sessionType": "Intake",
+        "issueFlag": "No",
+        "notes": "Very Good Session"
+    },
+    {
+        "_id": "5ebdedc37fbc2980b4012582",
+        "date": "2020-04-11T00:00:00.000Z",
+        "time": "12.45",
+        "clientId": "5ebd1b6a943eb24688afe4f7",
+        "therapistId": "5ebde3fd8eaa6df75740383b",
+        "fee": "$20",
+        "sessionNum": "123",
+        "duration": "Cancelled",
+        "sessionType": "Psychotherapy",
+        "issueFlag": "No",
+        "notes": "Very Good Session"
+    },
+    {
+        "_id": "5ebdedc37fbc2980b4012583",
+        "date": "2020-05-14T00:00:00.000Z",
+        "time": "12.45",
+        "clientId": "5ebd1b21943eb24688afe4f5",
+        "therapistId": "5ebde3fd8eaa6df75740383a",
+        "fee": "$25",
+        "sessionNum": "14",
+        "duration": "35",
+        "sessionType": "Intake",
+        "issueFlag": "No",
+        "notes": "Very Good Session"
+    },
+    {
+        "_id": "5ebdedc37fbc2980b4012584",
+        "date": "2020-04-14T00:00:00.000Z",
+        "time": "12.45",
+        "clientId": "5ebd1b6a943eb24688afe4f7",
+        "therapistId": "5ebde3fd8eaa6df75740383a",
+        "fee": "$20",
+        "sessionNum": "9",
+        "duration": "Cancelled",
+        "sessionType": "Assessment",
+        "issueFlag": "No",
+        "notes": "Very Good Session"
+    },
+    {
+        "_id": "5ebdedc37fbc2980b4012585",
+        "date": "2020-04-14T00:00:00.000Z",
+        "time": "12.45",
+        "clientId": "5ebd1b5e943eb24688afe4f6",
+        "therapistId": "5ebde3fd8eaa6df757403838",
+        "fee": "$100",
+        "sessionNum": "12",
+        "duration": "60",
+        "sessionType": "Intake",
+        "issueFlag": "No",
+        "notes": "Very Good Session"
+    },
+    {
+        "_id": "5ebdedc37fbc2980b4012586",
+        "date": "2020-04-14T00:00:00.000Z",
+        "time": "12.45",
+        "clientId": "5ebd1b21943eb24688afe4f5",
+        "therapistId": "5ebde3fd8eaa6df757403836",
+        "fee": "$20",
+        "sessionNum": "14",
+        "duration": "No Show",
+        "sessionType": "Intake",
+        "issueFlag": "No",
+        "notes": "no comment"
+    },
+    {
+        "_id": "5ebdedc37fbc2980b4012587",
+        "date": "2020-04-04T00:00:00.000Z",
+        "time": "12.45",
+        "clientId": "5ebd1b5e943eb24688afe4f6",
+        "therapistId": "5ebde3fd8eaa6df757403835",
+        "fee": "$20",
+        "sessionNum": "12",
+        "duration": "100",
+        "sessionType": "Intake",
+        "issueFlag": "Yes",
+        "notes": "Great progress"
+    },
+    {
+        "_id": "5ebdee133d02315fc4a2be30",
+        "date": "2020-04-14T00:00:00.000Z",
+        "time": "12.45",
+        "client": {
+            "_id": "5ebd1b6a943eb24688afe4f7",
+            "title": "Mr",
+            "fname": "James",
+            "sname": "Redmond",
+            "DoB": "2020-04-15T00:00:00.000Z",
+            "permission": "N",
+            "mobilePhone": "086343432",
+            "homePhone": "0453273894",
+            "email": "johnRed@42mail.ie",
+            "created_at": "2020-05-14T10:20:26.153Z",
+            "maritalStatus": "Married",
+            "__v": 0
+        },
+        "therapist": {
+            "_id": "5ebde3fd8eaa6df75740383b",
+            "title": "Mrs",
+            "fname": "Samuel",
+            "sname": "Middleton",
+            "mobilePhone": "08179805",
+            "homePhone": "08533573",
+            "email": "SMiddleton@yahoo.co.uk",
+            "homeAdd": {
+                "_id": "5ebdee363d02315fc4a2be32",
+                "addline1": "Oak Cottage",
+                "addline2": "Queen Oaks Court",
+                "town": "Killucan",
+                "county": "County Cork",
+                "eircode": "Q17UB91"
+            }
+        },
+        "fee": "$20",
+        "sessionNum": "12",
+        "duration": "15",
+        "sessionType": "Intake",
+        "issueFlag": "No",
+        "notes": "Very Good Session",
+        "__v": 0
+    }
+]
+clients collection
+[
+    {
+        "_id": "5ebd1b21943eb24688afe4f5",
+        "title": "Mr",
+        "fname": "James",
+        "sname": "Redmond",
+        "DoB": "2010-04-15T00:00:00.000Z",
+        "permission": "N",
+        "mobilePhone": "086343432",
+        "homePhone": "0453273894",
+        "email": "johnRed@42mail.ie",
+        "created_at": "2020-05-14T10:19:13.856Z",
+        "maritalStatus": "Married",
+        "__v": 0
+    },
+    {
+        "_id": "5ebd1b5e943eb24688afe4f6",
+        "title": "Mr",
+        "fname": "James",
+        "sname": "Redmond",
+        "DoB": "2020-04-15T00:00:00.000Z",
+        "permission": "N",
+        "mobilePhone": "086343432",
+        "homePhone": "0453273894",
+        "email": "johnRed@42mail.ie",
+        "parentName": "John Peters",
+        "created_at": "2020-05-14T10:20:14.456Z",
+        "maritalStatus": "Married",
+        "__v": 0
+    },
+    {
+        "_id": "5ebd1b6a943eb24688afe4f7",
+        "title": "Mr",
+        "fname": "James",
+        "sname": "Redmond",
+        "DoB": "2020-04-15T00:00:00.000Z",
+        "permission": "N",
+        "mobilePhone": "086343432",
+        "homePhone": "0453273894",
+        "email": "johnRed@42mail.ie",
+        "created_at": "2020-05-14T10:20:26.153Z",
+        "maritalStatus": "Married",
+        "__v": 0
+    }
+]
+therapists colection
+[
+    {
+        "_id": "5ebde3fd8eaa6df757403835",
+        "title": "Mr",
+        "fname": "Stella",
+        "sname": "Wilkerson",
+        "mobilePhone": "08294497",
+        "homePhone": "08619349",
+        "email": "Stella.Wilkerson@yahoo.co.uk",
+        "homeAdd": {
+            "_id": "5ebdef1b3d02315fc4a2be33",
+            "addline1": "Lealands",
+            "addline2": "Crystal Cottage",
+            "town": "Scariff",
+            "county": "County Tipperary",
+            "eircode": "B74XB34"
+        }
+    },
+    {
+        "_id": "5ebde3fd8eaa6df757403836",
+        "title": "Mrs",
+        "fname": "Sofia",
+        "sname": "Lawrence",
+        "mobilePhone": "08442211",
+        "homePhone": "08689658",
+        "email": "SLawrence@gmail.com",
+        "homeAdd": {
+            "_id": "5ebdef1b3d02315fc4a2be34",
+            "addline1": "Hope Corner",
+            "addline2": "Snowdrops Cottage",
+            "town": "Donaghmede",
+            "county": "County Galway",
+            "eircode": "O42JZ18"
+        }
+    },
+    {
+        "_id": "5ebde3fd8eaa6df757403837",
+        "title": "Mrs",
+        "fname": "Ava",
+        "sname": "Bender",
+        "mobilePhone": "08425513",
+        "homePhone": "08977722",
+        "email": "Ava.Bender@mumail.ie",
+        "homeAdd": {
+            "_id": "5ebdef1b3d02315fc4a2be35",
+            "addline1": "Cedar Cabin",
+            "addline2": "Wisteria Cottages",
+            "town": "Scariff",
+            "county": "County Longford",
+            "eircode": "M15XV67"
+        }
+    },
+    {
+        "_id": "5ebde3fd8eaa6df757403838",
+        "title": "Ms",
+        "fname": "Jonathan",
+        "sname": "Hamilton",
+        "mobilePhone": "08823422",
+        "homePhone": "08559922",
+        "email": "Jonathan24Hamilton@outlook.com",
+        "homeAdd": {
+            "_id": "5ebdef1b3d02315fc4a2be36",
+            "addline1": "Appletree Lodge",
+            "addline2": "Ardoran",
+            "town": "Rathmullan",
+            "county": "County Leitrim",
+            "eircode": "I64JW83"
+        }
+    },
+    {
+        "_id": "5ebde3fd8eaa6df757403839",
+        "title": "Mr",
+        "fname": "Owen",
+        "sname": "McLaughlin",
+        "mobilePhone": "08689209",
+        "homePhone": "08363763",
+        "email": "Owen.McLaughlin85@yahoo.co.uk",
+        "homeAdd": {
+            "_id": "5ebdef1b3d02315fc4a2be37",
+            "addline1": "Campion",
+            "addline2": "Jasmine Cottage",
+            "town": "Goleen",
+            "county": "County Down",
+            "eircode": "C85WS48"
+        }
+    },
+    {
+        "_id": "5ebde3fd8eaa6df75740383a",
+        "title": "Mr",
+        "fname": "Emily",
+        "sname": "Moon",
+        "mobilePhone": "08695148",
+        "homePhone": "08298216",
+        "email": "EMoon@yahoo.co.uk",
+        "homeAdd": {
+            "_id": "5ebdef1b3d02315fc4a2be38",
+            "addline1": "Campion",
+            "addline2": "Pine View",
+            "town": "Clonmellon",
+            "county": "County Mayo",
+            "eircode": "T25UB101"
+        }
+    },
+    {
+        "_id": "5ebde3fd8eaa6df75740383b",
+        "title": "Mrs",
+        "fname": "Samuel",
+        "sname": "Middleton",
+        "mobilePhone": "08179805",
+        "homePhone": "08533573",
+        "email": "SMiddleton@yahoo.co.uk",
+        "homeAdd": {
+            "_id": "5ebdef1b3d02315fc4a2be39",
+            "addline1": "Oak Cottage",
+            "addline2": "Queen Oaks Court",
+            "town": "Killucan",
+            "county": "County Cork",
+            "eircode": "Q17UB91"
+        }
+    },
+    {
+        "_id": "5ebde4ab38fad333e810639d",
+        "title": "Mx",
+        "fname": "Daniel",
+        "sname": "Rockborough",
+        "mobilePhone": "0862318891",
+        "homePhone": "043737384",
+        "email": "danielroc@gmail.com",
+        "homeAdd": {
+            "_id": "5ebde4ab38fad333e810639e",
+            "addline1": "Still Willows",
+            "addline2": "Santanria",
+            "town": "Townsville",
+            "county": "Co. Kildare",
+            "eircode": ""
+        },
+        "__v": 0
+    }
+]

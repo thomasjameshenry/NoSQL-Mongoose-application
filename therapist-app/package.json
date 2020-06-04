@@ -1,0 +1,27 @@
+{
+  "name": "assignment-exam",
+  "version": "1.0.0",
+  "description": "exam project cs230",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "nodejs",
+    "css",
+    "html",
+    "bootstrap",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "Thomas Henry",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.9.14"
+  }
+}
